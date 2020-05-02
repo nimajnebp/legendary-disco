@@ -41,6 +41,17 @@
       "Drupal": true,
       "drupalSettings": true,
       "jQuery": true
+    },
+    "rules": {
+      "no-param-reassign": [
+        "error",
+        {
+          "props": true,
+          "ignorePropertyModificationsFor": [
+            "Drupal"
+          ]
+        }
+      ]
     }
   },
   "browserslist": [
