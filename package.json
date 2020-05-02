@@ -33,6 +33,20 @@
   "homepage": "https://github.com/nimajnebp/legendary-disco#readme",
   "dependencies": {
     "gulp": "^4.0.2",
-    "turbo-potato": "^1.0.1"
+    "turbo-potato": "^1.0.3"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "globals": {
+      "Drupal": true,
+      "drupalSettings": true,
+      "jQuery": true
+    }
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "stylelint": {
+    "extends": "stylelint-config-twbs-bootstrap/scss"
   }
 }

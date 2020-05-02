@@ -1,15 +1,15 @@
 core: '8.x'
-project: legendary-disco
+project: 'project_name'
 version: 8.x-1.x-dev
 type: 'theme'
 base theme: 'classy'
 
-name: 'legendary-disco'
+name: 'theme_name'
 description: 'Drupal 8 theme template'
 
 libraries:
-- 'legendary-disco/global-styling'
-- 'legendary-disco/bootstrap'
+- 'theme_name/global-styling'
+- 'theme_name/bootstrap'
 
 libraries-override:
 core/normalize: false
