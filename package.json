@@ -23,7 +23,9 @@
     "theme",
     "template",
     "classy",
-    "bootstrap"
+    "bootstrap",
+    "turbo-potato",
+    "gulp"
   ],
   "author": "nimajnebp",
   "license": "MIT",
@@ -33,7 +35,7 @@
   "homepage": "https://github.com/nimajnebp/legendary-disco#readme",
   "dependencies": {
     "gulp": "^4.0.2",
-    "turbo-potato": "^1.0.3"
+    "turbo-potato": "^1.0.7"
   },
   "eslintConfig": {
     "extends": "airbnb-base",

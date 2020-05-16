@@ -4,21 +4,14 @@
 // Imports order is crucial in this file.
 //
 
-// FOUNDATION
-// ==========
-//@import "variables";
-//@import "bs-variables-override";
-// >>> Bootstrap 4!
+@import "variables";
+
+// ___BOOTSTRAP 4.5
+// ================
 @import "___bootstrap/bootstrap";
 
-// ABSTRACT
-// ========
-
-// BASE
-// ====
-
-// COMPONENTS
-// ==========
-
-// DRUPAL
+// __BASE
 // ======
+
+// _DRUPAL
+// =======
